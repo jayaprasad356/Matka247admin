@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/deposit_req"
+        android:title="Deposite request"
+        />
+    <item
+        android:id="@+id/withdrawal"
+        android:title="Withdrawal"
+        />
+
+    <item
+        android:id="@+id/declare_result"
+        android:title="Declare result"
+        />
+
+
+
+
+    <item
+        android:id="@+id/show_biddings"
+        android:title="Show biddings"
+        />
+
+
+
+    <item
+        android:id="@+id/sharing_point"
+        android:title="Sharing points"
+        />
+
+    <item
+        android:id="@+id/winners"
+        android:title="Winners"
+        />
+
+    <item
+        android:id="@+id/users"
+        android:title="Users"
+        />
+
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        />
+
+
+</menu>

@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen_10dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="Name"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="Holder"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="Account Number "
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="IFSC CODE "
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="PAYTM"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="PHONEPE"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="IFSC CODE"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/tvHolderName"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="IFSC CODE"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/tvAccountNumber"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="IFSC CODE"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvIFSC"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="IFSC CODE"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvPaytm"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="IFSC CODE"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvPhonepe"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dimen_10dp"
+            android:text="IFSC CODE"
+            android:layout_marginVertical="@dimen/dimen_2dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
+

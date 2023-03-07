@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:id="@+id/linear_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/transimg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/transaction"
+            android:layout_gravity="center_vertical"
+            />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            >
+            <TextView
+                android:id="@+id/tvtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="12dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/appdesignblue"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/tvBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:dividerColor="#0E74F1"
+        android:layout_below="@+id/linear_lyt"
+        android:layout_margin="5dp"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Declare_resultActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            />
+
+        <Spinner
+            android:id="@+id/spinGame"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/whitebackgroundcruve"
+            />
+
+
+        <Button
+            android:id="@+id/btnResult"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="Show Result" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
